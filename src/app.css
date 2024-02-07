@@ -1,0 +1,148 @@
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.header h1 {
+  margin: 0;
+}
+* {
+  margin: 0;
+}
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+.abtbox-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+.box {
+  background-color: rgba(50, 50, 50, 0.5);
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.abtbox {
+  background-color: rgba(50, 50, 50, 0.5);
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.navbar {
+  position: static; /* Fixed position to make it scroll away */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  width: 100%; /* Fill the entire width of the screen */
+  background-color: #222; /* Very dark blue background */
+  overflow: hidden; /* Hide overflow content */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Center vertically */
+  padding: 0 20px; /* Add padding to the left and right */
+}
+
+/* Style for the title */
+.navbar-title {
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-button {
+  margin-left: 5%; /* Spaced at 5% */
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #005588; /* Darker blue on hover */
+}
+.footer {
+  position: static; /* Fixed position to make it scroll away */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  width: 100%; /* Fill the entire width of the screen */
+  background-color: #222; /* Very dark blue background */
+  overflow: hidden; /* Hide overflow content */
+
+  margin-top: 40px;
+  padding: 0 20px; /* Add padding to the left and right */
+}
+.foot-title {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+}
+
+/* Style for the title */
+.foot-buttons {
+  position: static; /* Fixed position to make it scroll away */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  width: 100%; /* Fill the entire width of the screen */
+  background-color: #222; /* Very dark blue background */
+  overflow: hidden; /* Hide overflow content */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Align items with space between */
+}
+
+.foot-button {
+  margin-left: 5%; /* Spaced at 5% */
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.foot-button:hover {
+  background-color: #005588; /* Darker blue on hover */
+}
