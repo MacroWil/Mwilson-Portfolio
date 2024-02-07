@@ -8,7 +8,7 @@ const About = () => {
       <img
         className="back"
         src={backImg} //!!!
-        alt="A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019."
+        alt="background image of a cafeine"
       />
       <div className="abtbox-container">
         <h1 className="abtbox">About</h1>

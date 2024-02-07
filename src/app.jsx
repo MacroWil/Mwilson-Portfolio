@@ -16,14 +16,14 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
       </Routes>
-      {/* <Routes>
+      <Routes>
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
-      <Routes>
+      {/*<Routes>
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Routes>
-        <Route path="/portfolio/resume" element={<Resume />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes> */}
       <Footer />
     </Router>
