@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./app.jsx";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/ContactMe";
 import Resume from "./components/Resume";
 import ErrorPage from "./components/ErrorPage";
 
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
       {
         path: "/resume",

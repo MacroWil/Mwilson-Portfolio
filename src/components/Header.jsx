@@ -12,11 +12,13 @@ const Header = () => {
         <Link to="/portfolio">
           <button className="navbar-button">Portfolio</button>
         </Link>
-        <Link to="/contact">
-          <button className="navbar-button">Contact Me</button>
-        </Link>
         <Link to="/resume">
           <button className="navbar-button">Resume</button>
+        </Link>
+        <Link to="mailto:macrow.co@gmail.com">
+          <button className="navbar-button" target="_blank">
+            Contact Me
+          </button>
         </Link>
       </div>
     </nav>

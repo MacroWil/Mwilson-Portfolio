@@ -5,7 +5,7 @@ import hero from "../assets/sketchself.png";
 
 const About = () => {
   return (
-    <div classname="main">
+    <div className="main">
       <img
         className="back"
         src={backImg} //!!!

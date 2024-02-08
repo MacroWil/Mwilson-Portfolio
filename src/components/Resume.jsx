@@ -1,6 +1,7 @@
 import React from "react";
 import backImg from "../assets/blurred.png";
-//import Resume from "./Resume";
+
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
@@ -11,141 +12,56 @@ const Resume = () => {
         alt="background image of blurred purple and black"
       />
       <div className="abtbox-container">
-        <h1 className="abtbox">About</h1>
+        <Link
+          to="https://docs.google.com/document/d/1devQBbMoe_PBCSLfMP09-yCgo60J1-hZaQoKOnEFiL4/"
+          target="_blank"
+          className="resbox"
+        >
+          Resume (click me to view)
+        </Link>
       </div>
 
       <div className="box-container">
-        <p className="box">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          laborum distinctio cum reiciendis quod quibusdam commodi, quo aliquam
-          iusto illum optio nisi, iste veritatis facere dolore, saepe at
-          consectetur voluptate?
-        </p>
-        <p className="box">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis
-          natus nobis corrupti illum ipsa. Assumenda excepturi asperiores porro
-          saepe magnam in, illo eaque nam ad, est ut fugit quo!
-        </p>
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>{" "}
-        <p className="box">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          expedita temporibus voluptates aut fuga eos provident, et explicabo
-          magnam? Praesentium doloribus sint similique est, odit modi error
-          sequi obcaecati hic!
-        </p>
+        <div className="listbox">
+          Front-End Proficiencies
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>Responsive Designs</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div className="listbox">
+          Back-End Proficiencies
+          <ul>
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL, Sequelize</li>
+            <li>MongoDB, Mongoose</li>
+            <li>REST</li>
+            <li>GraphQL</li>
+            <li>MERN/CERN</li>
+          </ul>
+        </div>
+        <div className="listboxhidden">
+          Back-End Proficiencies
+          <ul>
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL, Sequelize</li>
+            <li>MongoDB, Mongoose</li>
+            <li>REST</li>
+            <li>GraphQL</li>
+            <li>MERN/CERN</li>
+            <li>MERN/CERN</li>
+            <li>MERN/CERN</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
