@@ -26,7 +26,7 @@ Maguire Wilson
 ## Usage
 
 In terminal run the command "npm run start" and open the application on http://localhost:3000/.
-application can aslo be accessed live at https://jate-pwa-mwilson-d321b33ed84e.herokuapp.com/
+application can aslo be accessed live at https://maguire-wilson-portfolio-4305fd6e7d9c.herokuapp.com/
 
 ## Tests
 
@@ -41,7 +41,7 @@ Or, you can email me at macrow.co@gmail.com.
 
 ## Links
 
-Link to Deployed application [HERE](https://jate-pwa-mwilson-d321b33ed84e.herokuapp.com/)
+Link to Deployed application [HERE](https://maguire-wilson-portfolio-4305fd6e7d9c.herokuapp.com/)
 
 ## Screenshot
 
