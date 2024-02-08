@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav class="navbar">
-      <div class="navbar-title">Your Title</div>
-      <div class="navbar-buttons">
+    <nav className="navbar">
+      <div className="navbar-title">Maguire Wilsons Portfolio</div>
+      <div className="navbar-buttons">
         <Link to="/">
-          <button class="navbar-button">About</button>
+          <button className="navbar-button">About</button>
         </Link>
         <Link to="/portfolio">
-          <button class="navbar-button">Portfolio</button>
+          <button className="navbar-button">Portfolio</button>
         </Link>
         <Link to="/contact">
-          <button class="navbar-button">Contact Me</button>
+          <button className="navbar-button">Contact Me</button>
         </Link>
         <Link to="/resume">
-          <button class="navbar-button">Resume</button>
+          <button className="navbar-button">Resume</button>
         </Link>
       </div>
     </nav>

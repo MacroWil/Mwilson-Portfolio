@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <footer class="footer">
-      <div class="foot-title">Media Links</div>
-      <div class="foot-buttons">
+    <footer className="footer">
+      <div className="foot-title">Media Links</div>
+      <div className="foot-buttons">
         <Link to="https://github.com/MacroWil">
-          <button class="foot-button">GitHub</button>
+          <button className="foot-button">GitHub</button>
         </Link>
         <Link to="https://www.linkedin.com/in/maguire-wilson-4611012a0/">
-          <button class="foot-button">LinkedIn</button>
+          <button className="foot-button">LinkedIn</button>
         </Link>
         <Link to="https://dev.to/macrowil">
-          <button class="foot-button">dev.to</button>
+          <button className="foot-button">dev.to</button>
         </Link>
       </div>
     </footer>
