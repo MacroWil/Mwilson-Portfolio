@@ -5,7 +5,7 @@ import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import img4 from "../assets/img4.png";
 import img5 from "../assets/img5.png";
-import img6 from "../assets/img6.gif";
+import img6 from "../assets/img6.png";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
@@ -62,7 +62,7 @@ const Portfolio = () => {
         </Link>
         <Link className="img-container">
           <img className="img" src={img6} alt="portfolio item6" />
-          <div className="imgtext">COMING SOON</div>
+          <div className="imgtext">EZ Homesteading</div>
         </Link>
       </div>
     </div>
