@@ -60,7 +60,11 @@ const Portfolio = () => {
           <img className="img" src={img5} alt="portfolio item5" />
           <div className="imgtext">Weather App</div>
         </Link>
-        <Link className="img-container">
+        <Link
+          to={"https://ez-homesteading-mvp-516b3c121538.herokuapp.com/"}
+          target="_blank"
+          className="img-container"
+        >
           <img className="img" src={img6} alt="portfolio item6" />
           <div className="imgtext">EZ Homesteading</div>
         </Link>
